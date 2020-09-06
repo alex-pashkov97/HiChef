@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiChef", "HiChef\HiChef.csproj", "{4D455F38-51A1-4375-88CC-E6992574AC49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HiChef.Service", "HiChef\HiChef.Service.csproj", "{4D455F38-51A1-4375-88CC-E6992574AC49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiChef.Model", "HiChef.Model\HiChef.Model.csproj", "{C51F56F8-B35F-4D1A-A497-729BC1471E51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiChef.Business", "HiChef.Business\HiChef.Business.csproj", "{57D056FE-89D1-44BD-88A2-8B5793BBDE76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiChef.Data", "HiChef.Data\HiChef.Data.csproj", "{13564003-9C19-43BA-A192-1F3384517B44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{4D455F38-51A1-4375-88CC-E6992574AC49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D455F38-51A1-4375-88CC-E6992574AC49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D455F38-51A1-4375-88CC-E6992574AC49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C51F56F8-B35F-4D1A-A497-729BC1471E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C51F56F8-B35F-4D1A-A497-729BC1471E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C51F56F8-B35F-4D1A-A497-729BC1471E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C51F56F8-B35F-4D1A-A497-729BC1471E51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57D056FE-89D1-44BD-88A2-8B5793BBDE76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57D056FE-89D1-44BD-88A2-8B5793BBDE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57D056FE-89D1-44BD-88A2-8B5793BBDE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57D056FE-89D1-44BD-88A2-8B5793BBDE76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13564003-9C19-43BA-A192-1F3384517B44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13564003-9C19-43BA-A192-1F3384517B44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13564003-9C19-43BA-A192-1F3384517B44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13564003-9C19-43BA-A192-1F3384517B44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
