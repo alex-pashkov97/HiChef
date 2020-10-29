@@ -7,7 +7,7 @@ namespace HiChef.Model.Models
     {
         public Guid Guid { get; set; }
 
-        public Author Author { get; set; }
+        public User Author { get; set; }
 
         public string Title { get; set; }
 
