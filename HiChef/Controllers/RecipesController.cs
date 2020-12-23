@@ -12,7 +12,7 @@ namespace HiChef.Controllers
     public class RecipesController : ControllerBase, IRecipesManager
     {
         private readonly IRecipesManager _recipesManager;
-
+        
         public RecipesController(IRecipesManager recipesManager)
         {
             _recipesManager = recipesManager ?? throw new ArgumentNullException(nameof(recipesManager));
@@ -30,19 +30,19 @@ namespace HiChef.Controllers
             return _recipesManager.GetUserRecipes(userGuid);
         }
 
-        [HttpPost("")]
+        [HttpPost("save-recipe")]
         public Task<Recipe> SaveRecipe(Recipe recipe)
         {
             return _recipesManager.SaveRecipe(recipe);
         }
 
-        [HttpPut("")]
+        [HttpPut("update-recipe")]
         public Task<Recipe> UpdateRecipe(Recipe recipe)
         {
             return _recipesManager.UpdateRecipe(recipe);
         }
 
-        [HttpDelete("")]
+        [HttpDelete("{recipeGuid}")]
         public Task DeleteRecipe(Guid recipeGuid)
         {
             return _recipesManager.DeleteRecipe(recipeGuid);
